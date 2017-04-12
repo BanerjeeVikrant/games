@@ -1,32 +1,17 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
-
-	<head>
-		<title>Handle Helicopter</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-		<link rel="stylesheet" href = "../css/template.css">
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script type="text/javascript" src="https://d14to6y4nub5k1.cloudfront.net/gulp/c936432546ac548765984c51c47d0212aa8ddc88/chs-js-lib/chs.js"></script>
-		<style>
-			body{
-				background-color: lightblue;
-			}
-			.canvas{
-				border: 3px solid black;
-				top: 50px;
-				position: relative;
-				left: 10%;
-			}
-		</style>
-	</head>
-	
-	
-	<body>
+<head>
+<title>Handle Helicopter</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href = "../css/template.css">
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://d14to6y4nub5k1.cloudfront.net/gulp/c936432546ac548765984c51c47d0212aa8ddc88/chs-js-lib/chs.js"></script>
+<style>
+body{background-color: lightblue;}.canvas{border: 3px solid black;top: 50px;position: relative;left: 10%;}</style></head>
+<body>
 
 <canvas
 width="400"
