@@ -9,6 +9,7 @@
 <style>
     body{
         background-color: lightblue;
+        overflow: scroll;
     }
     .canvas{
         border: 3px solid black;top: 50px;position: relative;left: 10%;
