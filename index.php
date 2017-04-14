@@ -7,9 +7,45 @@
 <link rel="stylesheet" href = "../css/template.css">
 <script type="text/javascript" src="https://d14to6y4nub5k1.cloudfront.net/gulp/c936432546ac548765984c51c47d0212aa8ddc88/chs-js-lib/chs.js"></script>
 <style>
-body{background-color: lightblue;}.canvas{border: 3px solid black;top: 50px;position: relative;left: 10%;}</style></head>
-<body>
+    body{
+        background-color: lightblue;
+    }
+    .canvas{
+        border: 3px solid black;top: 50px;position: relative;left: 10%;
+    }
 
+    h1{
+          -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+    }
+    p{
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+
+    font-size: 20px;
+    }
+
+
+</style>
+</head>
+<body>
+<div class="instruction-box">
+
+    <h1>How to Play:</h1>
+
+    <p>Left Click and Hold to control the Helicopter</p>
+    
+</div>
 <canvas
 width="400"
 height="500"
