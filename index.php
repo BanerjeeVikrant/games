@@ -76,7 +76,7 @@ function updateScore(){
 }
 function setUp(){
     
-    copter = new WebImage("http://i.imgur.com/YSpQ8j0.png");
+    copter = new WebImage("helicopter.png");
     setBackgroundColor(Color.black);
     copter.setSize(50,25);
     copter.setPosition(getWidth()/3, getHeight()/2);
