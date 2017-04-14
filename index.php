@@ -4,10 +4,7 @@
 <title>Handle Helicopter</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <link rel="stylesheet" href = "../css/template.css">
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script type="text/javascript" src="https://d14to6y4nub5k1.cloudfront.net/gulp/c936432546ac548765984c51c47d0212aa8ddc88/chs-js-lib/chs.js"></script>
 <style>
 body{background-color: lightblue;}.canvas{border: 3px solid black;top: 50px;position: relative;left: 10%;}</style></head>
@@ -78,7 +75,7 @@ function setUp(){
     
     copter = new WebImage("helicopter.png");
     setBackgroundColor(Color.black);
-    copter.setSize(50,25);
+    copter.setSize(60,45);
     copter.setPosition(getWidth()/3, getHeight()/2);
     copter.setColor(Color.blue);
     add(copter);
@@ -108,7 +105,7 @@ function game(){
     }
     var collider = getCollider();
     if(collider != null && collider != copter){
-        lose();
+            lose();
         return;
     }
     if (clicking){
